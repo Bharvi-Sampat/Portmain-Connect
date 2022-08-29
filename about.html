@@ -34,7 +34,7 @@
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark">
       <div class="row py-2 px-lg-5">
-        <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+        <div class="col-lg-8 text-center mb-2 mb-lg-0">
           <div class="d-inline-flex align-items-center text-white">
             <small><i class="fa fa-phone-alt mr-2"></i>+91 222 8688326</small>
             <small class="px-3">|</small>
@@ -42,7 +42,7 @@
             <small class="px-3">|</small>
             <small><i class="fa fa-fax mr-2"></i>+91 222 8697518</small>
             <small class="px-3">|</small>
-            <small><i class="fa fa-envelope mr-2"></i>tphcorp@gmail.com</small>
+            <small><i class="fa fa-envelope mr-2"></i>tphcorp@portmainconnect.com</small>
           </div>
         </div>
         <!-- <div class="col-lg-6 text-center text-lg-right">
@@ -123,10 +123,11 @@
                         class="contact-form bg-secondary"
                         style="padding: 30px"
                       >
-                        <div id="success"></div>
+                        <div id="successmodal"></div>
                         <form
+                        action="mail/contact.php"
                           name="sentMessage"
-                          id="contactForm"
+                          id="contactFormmodal"
                           novalidate="novalidate"
                         >
                           <div class="control-group">
@@ -222,7 +223,7 @@
             />
           </div>
           <div class="col-lg-7">
-            <h1 class="mb-4">Trusted & Faster Logistic Service Provider</h1>
+            <h1 class="mb-4">Trusted and Reliable FMCG Products Distributor</h1>
             <p class="mb-4">
               Since our establishment over 30 years ago Portmain Connect has
               continually expanded to become India's largest, most trusted
@@ -245,9 +246,7 @@
     <div class="container-fluid bg-secondary my-5">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5">
-            <img class="float-end w-100" src="img/feature.jpg" alt="" />
-          </div>
+          
           <div class="col-lg-7 py-5 py-lg-0">
             <h3 class="text-primary text-uppercase font-weight-bold pt-4">
               We provide
@@ -266,6 +265,9 @@
               <br></br>
               Trading directly with key principles in the FMCG Industry, we are able to offer not only the best pricing, but also the best product ranges to meet your needs. In addition to A-brand trading, we also offer private label services. Feel free to get in touch with one of the team today to find out more!
             </p>
+          </div>
+          <div class="col-lg-5">
+            <img class="float-end w-100" src="img/feature.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -350,10 +352,11 @@
                   Contact Us
                 </h3>
                 <div class="contact-form bg-secondary rounded" style="padding: 30px">
-                  <div id="success"></div>
+                  <div id="successfooter"></div>
                   <form
+                  action="mail/contact.php"
                     name="sentMessage"
-                    id="contactForm"
+                    id="contactFormfooter"
                     novalidate="novalidate"
                   >
                     <div class="control-group">
